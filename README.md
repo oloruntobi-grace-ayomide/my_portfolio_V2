@@ -39,7 +39,7 @@ This is my personal portfolio website, built to showcase my skills, projects, an
 
 ## 📩 Contact
 Feel free to reach out to me via:
-- **Email:** oloruntobigraceayomide@example.com
+- **Email:** oloruntobiga@gmail.com
 - **LinkedIn:** [My LinkedIn](https://www.linkedin.com/in/grace-oloruntobi-ab3a1a263)
 - **GitHub:** [My GitHub](https://github.com/oloruntobi-grace-ayomide)
 
