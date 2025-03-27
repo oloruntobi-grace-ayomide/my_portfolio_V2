@@ -91,7 +91,7 @@ function Project (){
 
                     <div className="links-div h-[50px] w-full flex gap-10 items-center mt-[10px]">
                         <a href="https://github.com/oloruntobi-grace-ayomide/my_portfolio_V2" className="inline-block" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/>GitHub</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} />Visit Website</a>
+                        <a href="https://www.graceayomide.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} />Visit Website</a>
                     </div>
                 </div>
                 
