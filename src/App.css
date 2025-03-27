@@ -420,14 +420,14 @@ p.special-text a:hover{
 .project-parent{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content:space-between;
   padding-top:50px;
   padding-bottom:50px;
 }
 
 .project-box{
   width:30%;
-  margin-bottom:30px;
+  margin-bottom:50px;
 }
 
 .project-box, .screenshot-img, .screenshot-img img{
@@ -602,10 +602,6 @@ p.special-text a:hover{
 
 .skill-hub-header{
   font-size:40px;
-}
-  
-.project-parent{
-  justify-content:space-between;
 }
 
 .project-box{

@@ -1,12 +1,68 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About the Project
+This is my personal portfolio website, built to showcase my skills, projects, and experience as a Full-Stack Web Developer. The site features an interactive and modern design with smooth animations to enhance the user experience.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[Visit My Portfolio](https://my-portfolio-uy10.onrender.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- **Responsive Design** – Optimized for all screen sizes.
+- **Projects Showcase** – Displaying my work with interactive cards.
+- **Smooth Animations** – Implemented using AOS (Animate on Scroll).
+- **Contact Form** – Users can send me messages directly.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **Frontend:** React, Tailwind CSS, AOS (Animate on Scroll)
+- **Backend:** None (static portfolio, but could integrate a backend in the future)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 📂 Project Structure
+```
+├── src
+│   ├── components      # Reusable components
+│   ├── pages           # Pages (Home, About, Projects, Contact)
+│   ├── assets          # Images and other static assets
+│   ├── App.jsx          # Main app file
+│   ├── index.css        # Global styles
+|   |-- Main.jsx         # Main entry point
+│   ├── App.css      # Main styles
+│
+│── index.html      # Main HTML file
+|  
+│
+├── .gitignore          # Files to ignore in Git
+├── package.json        # Project dependencies
+└── README.md           # Project documentation
+```
+
+## 📩 Contact
+Feel free to reach out to me via:
+- **Email:** oloruntobigraceayomide@example.com
+- **LinkedIn:** [My LinkedIn](https://www.linkedin.com/in/grace-oloruntobi-ab3a1a263)
+- **GitHub:** [My GitHub](https://github.com/oloruntobi-grace-ayomide)
+
+## 🚀 Getting Started
+To run this project locally:
+```sh
+# Clone the repository
+git clone https://github.com/oloruntobi-grace-ayomide/my_portfolio_V2.git
+
+# Navigate to the project directory
+cd reactPortfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## 🙌 Acknowledgments
+A big thanks to all open-source tools and libraries that helped build this project!
+
+---
+
+Made with ❤️ by **Oloruntobi Grace Ayomide**
+
