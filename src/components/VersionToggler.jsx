@@ -4,9 +4,19 @@ function VersionToggler(){
 
         <div className="toggler-box">
 
-            <a href="https://my-portfolio-uy10.onrender.com/" target='_blank' rel="noopener noreferrer"><span className="toggle-label" data-tit="Visit the previous version (Version 1)">V1</span></a>
+           
+                <span 
+                    className="toggle-label" 
+                    data-tit="Visit the previous version (Version 1)">
+                    <a href="https://my-portfolio-uy10.onrender.com/" target='_blank' rel="noopener noreferrer">V1</a>
+                </span>
             
-            <a href="/"><span className="toggle-label" data-tit='You are currently on Version 2'>V2</span></a>
+      
+                <span 
+                   className="toggle-label" 
+                    data-tit='You are currently on Version 2'><a href="/">V2</a>
+                </span>
+         
         
         </div>
     )

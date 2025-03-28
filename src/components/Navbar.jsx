@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import dowloadIcon from '../assets/icons/download_resume.png'
@@ -8,10 +8,28 @@ import myLogo from '../assets/images/my_logo.png'
 function Navbar(){
     const location = useLocation();
     const [isOpen, setIsOpen] = useState(false);
+    const navRef = useRef(null);
+
+  useEffect(() => {
+
+    // Function to close menu when clicking outside
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    // Add event listener
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
 
     return(
           
-        <nav className="navbar-container">
+        <nav ref={navRef} className="navbar-container">
 
             <div className="nav-links-container-md w-full block md:hidden flex items-center justify-between px-[15px]">
 
