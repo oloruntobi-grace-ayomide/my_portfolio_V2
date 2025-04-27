@@ -51,8 +51,8 @@ function Project (){
                     </ul>
 
                     <div className="links-div h-[50px] w-full flex gap-10 items-center mt-[10px]">
-                        {/* <a href="#" className="inline-block" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/>GitHub</a> */}
-                        <a href="https://beulah.pythonanywhere.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} />Visit Website</a>
+                        <a href="https://github.com/oloruntobi-grace-ayomide/Beulah-App" className="inline-block" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/>GitHub</a>
+                        <a href="https://beufoundation.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLink} />Visit Website</a>
                     </div>
                 </div>
 

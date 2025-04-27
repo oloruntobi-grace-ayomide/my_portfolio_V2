@@ -1,5 +1,4 @@
 import Navbar from './Navbar'
-import VersionToggler from "./VersionToggler"
 
 function Layout( { children } ){
 
@@ -7,7 +6,6 @@ function Layout( { children } ){
           
         <div className="parent-container flex flex-col">
             <Navbar/>
-            <VersionToggler/>
             <main className="content-body flex-grow">
                 { children }
             </main>
